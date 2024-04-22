@@ -1,4 +1,4 @@
-export default function createReportObject(employeesList) {
+export default function iterateThroughObject(employeesList) {
   const allEmployees = {};
 
   for (const [departmentName, employees] of Object.entries(employeesList)) {
